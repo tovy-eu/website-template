@@ -16,5 +16,8 @@ export default defineConfig({
   integrations: [react(), mdx(), sitemap()],
   vite: {
     plugins: [tailwindcss()],
+    optimizeDeps: {
+      include: ['react/jsx-dev-runtime', 'react/jsx-runtime', 'react', 'react-dom'],
+    },
   },
 });
