@@ -10,6 +10,8 @@
       { "label": "Home", "href": "/" },
       { "label": "About", "href": "/about" },
       { "label": "Services", "href": "/services" },
+      { "label": "Portfolio", "href": "/portfolio" },
+      { "label": "Pricing", "href": "/pricing" },
       { "label": "Blog", "href": "/blog" },
       { "label": "Contact", "href": "/contact" }
     ]
@@ -22,6 +24,8 @@
         "links": [
           { "label": "About", "href": "/about" },
           { "label": "Services", "href": "/services" },
+          { "label": "Portfolio", "href": "/portfolio" },
+          { "label": "Pricing", "href": "/pricing" },
           { "label": "Contact", "href": "/contact" }
         ]
       },
@@ -164,6 +168,107 @@
       "title": "Let's discuss your project",
       "description": "Tell us what you need and we'll get back to you within 24 hours.",
       "action": { "label": "Contact Us", "href": "/contact" }
+    }
+  },
+
+  "portfolio": {
+    "seo": {
+      "title": "Portfolio — Your Business Name",
+      "description": "Browse our recent projects and see the results we've delivered for our clients."
+    },
+    "hero": {
+      "title": "Our work",
+      "subtitle": "A selection of recent projects. Replace these with your own case studies, screenshots, and results."
+    },
+    "projects": {
+      "title": "Recent projects",
+      "subtitle": "Each card represents a completed project. Add screenshots to src/assets/images/ and link them here.",
+      "items": [
+        { "title": "Project One", "description": "Describe the client, the challenge, and the outcome. Include metrics if possible.", "tags": ["Web Design", "Astro"] },
+        { "title": "Project Two", "description": "Describe the client, the challenge, and the outcome. Include metrics if possible.", "tags": ["Web App", "React"] },
+        { "title": "Project Three", "description": "Describe the client, the challenge, and the outcome. Include metrics if possible.", "tags": ["E-commerce", "Shopify"] },
+        { "title": "Project Four", "description": "Describe the client, the challenge, and the outcome. Include metrics if possible.", "tags": ["Branding", "UI/UX"] },
+        { "title": "Project Five", "description": "Describe the client, the challenge, and the outcome. Include metrics if possible.", "tags": ["SaaS", "Full Stack"] },
+        { "title": "Project Six", "description": "Describe the client, the challenge, and the outcome. Include metrics if possible.", "tags": ["Mobile", "React Native"] }
+      ]
+    },
+    "cta": {
+      "title": "Have a project in mind?",
+      "description": "Let's talk about what we can build together.",
+      "action": { "label": "Start a Project", "href": "/contact" }
+    }
+  },
+
+  "pricing": {
+    "seo": {
+      "title": "Pricing — Your Business Name",
+      "description": "Transparent pricing for our services. Choose the plan that fits your needs."
+    },
+    "hero": {
+      "title": "Pricing",
+      "subtitle": "Simple, transparent pricing. No hidden fees. Replace these tiers with your actual packages."
+    },
+    "tiers": {
+      "title": "Choose your plan",
+      "subtitle": "All plans include a discovery call and a detailed project proposal.",
+      "items": [
+        {
+          "name": "Starter",
+          "price": "$X,XXX",
+          "description": "For small businesses that need a professional online presence.",
+          "features": [
+            "Up to 5 pages",
+            "Mobile responsive",
+            "Contact form",
+            "Basic SEO setup",
+            "1 round of revisions"
+          ],
+          "cta": { "label": "Get Started", "href": "/contact" }
+        },
+        {
+          "name": "Business",
+          "price": "$X,XXX",
+          "description": "For growing businesses that need more functionality and polish.",
+          "features": [
+            "Up to 15 pages",
+            "CMS integration",
+            "Blog setup",
+            "Advanced SEO",
+            "Analytics dashboard",
+            "3 rounds of revisions"
+          ],
+          "cta": { "label": "Get Started", "href": "/contact" },
+          "highlighted": true
+        },
+        {
+          "name": "Custom",
+          "price": "Let's talk",
+          "description": "For businesses with complex requirements or ongoing development needs.",
+          "features": [
+            "Unlimited pages",
+            "Custom web application",
+            "API integrations",
+            "Multilingual support",
+            "Performance optimization",
+            "Ongoing support & maintenance"
+          ],
+          "cta": { "label": "Contact Us", "href": "/contact" }
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Pricing questions",
+      "items": [
+        { "question": "What's included in the price?", "answer": "Replace with your actual answer. Be specific about deliverables, timeline, and what the client receives." },
+        { "question": "Do you offer payment plans?", "answer": "Replace with your actual answer about payment terms, deposits, and milestones." },
+        { "question": "What if I need something not listed here?", "answer": "Replace with your actual answer. Explain your custom quote process." },
+        { "question": "Are there any recurring costs?", "answer": "Replace with your actual answer about hosting, maintenance, domain fees, or subscription costs." }
+      ]
+    },
+    "cta": {
+      "title": "Not sure which plan is right?",
+      "description": "Book a free consultation and we'll recommend the best option for your needs.",
+      "action": { "label": "Book a Call", "href": "/contact" }
     }
   },
 

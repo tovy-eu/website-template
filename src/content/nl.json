@@ -10,6 +10,8 @@
       { "label": "Home", "href": "/nl" },
       { "label": "Over ons", "href": "/nl/over-ons" },
       { "label": "Diensten", "href": "/nl/diensten" },
+      { "label": "Portfolio", "href": "/nl/portfolio" },
+      { "label": "Prijzen", "href": "/nl/prijzen" },
       { "label": "Blog", "href": "/nl/blog" },
       { "label": "Contact", "href": "/nl/contact" }
     ]
@@ -22,6 +24,8 @@
         "links": [
           { "label": "Over ons", "href": "/nl/over-ons" },
           { "label": "Diensten", "href": "/nl/diensten" },
+          { "label": "Portfolio", "href": "/nl/portfolio" },
+          { "label": "Prijzen", "href": "/nl/prijzen" },
           { "label": "Contact", "href": "/nl/contact" }
         ]
       },
@@ -164,6 +168,107 @@
       "title": "Laten we uw project bespreken",
       "description": "Vertel ons wat u nodig heeft en we nemen binnen 24 uur contact met u op.",
       "action": { "label": "Neem contact op", "href": "/nl/contact" }
+    }
+  },
+
+  "portfolio": {
+    "seo": {
+      "title": "Portfolio — Uw Bedrijfsnaam",
+      "description": "Bekijk onze recente projecten en zie de resultaten die we voor onze klanten hebben behaald."
+    },
+    "hero": {
+      "title": "Ons werk",
+      "subtitle": "Een selectie van recente projecten. Vervang deze door uw eigen casestudies, screenshots en resultaten."
+    },
+    "projects": {
+      "title": "Recente projecten",
+      "subtitle": "Elke kaart vertegenwoordigt een afgerond project. Voeg screenshots toe aan src/assets/images/ en link ze hier.",
+      "items": [
+        { "title": "Project een", "description": "Beschrijf de klant, de uitdaging en het resultaat. Voeg indien mogelijk cijfers toe.", "tags": ["Webdesign", "Astro"] },
+        { "title": "Project twee", "description": "Beschrijf de klant, de uitdaging en het resultaat. Voeg indien mogelijk cijfers toe.", "tags": ["Webapp", "React"] },
+        { "title": "Project drie", "description": "Beschrijf de klant, de uitdaging en het resultaat. Voeg indien mogelijk cijfers toe.", "tags": ["E-commerce", "Shopify"] },
+        { "title": "Project vier", "description": "Beschrijf de klant, de uitdaging en het resultaat. Voeg indien mogelijk cijfers toe.", "tags": ["Branding", "UI/UX"] },
+        { "title": "Project vijf", "description": "Beschrijf de klant, de uitdaging en het resultaat. Voeg indien mogelijk cijfers toe.", "tags": ["SaaS", "Full Stack"] },
+        { "title": "Project zes", "description": "Beschrijf de klant, de uitdaging en het resultaat. Voeg indien mogelijk cijfers toe.", "tags": ["Mobiel", "React Native"] }
+      ]
+    },
+    "cta": {
+      "title": "Een project in gedachten?",
+      "description": "Laten we bespreken wat we samen kunnen bouwen.",
+      "action": { "label": "Start een project", "href": "/nl/contact" }
+    }
+  },
+
+  "pricing": {
+    "seo": {
+      "title": "Prijzen — Uw Bedrijfsnaam",
+      "description": "Transparante prijzen voor onze diensten. Kies het plan dat bij uw behoeften past."
+    },
+    "hero": {
+      "title": "Prijzen",
+      "subtitle": "Eenvoudige, transparante prijzen. Geen verborgen kosten. Vervang deze pakketten door uw werkelijke aanbod."
+    },
+    "tiers": {
+      "title": "Kies uw plan",
+      "subtitle": "Alle plannen bevatten een kennismakingsgesprek en een gedetailleerd projectvoorstel.",
+      "items": [
+        {
+          "name": "Starter",
+          "price": "€X.XXX",
+          "description": "Voor kleine bedrijven die een professionele online aanwezigheid nodig hebben.",
+          "features": [
+            "Tot 5 pagina's",
+            "Mobiel responsief",
+            "Contactformulier",
+            "Basis SEO-setup",
+            "1 revisieronde"
+          ],
+          "cta": { "label": "Aan de slag", "href": "/nl/contact" }
+        },
+        {
+          "name": "Zakelijk",
+          "price": "€X.XXX",
+          "description": "Voor groeiende bedrijven die meer functionaliteit en afwerking nodig hebben.",
+          "features": [
+            "Tot 15 pagina's",
+            "CMS-integratie",
+            "Blog-setup",
+            "Geavanceerde SEO",
+            "Analytics-dashboard",
+            "3 revisierondes"
+          ],
+          "cta": { "label": "Aan de slag", "href": "/nl/contact" },
+          "highlighted": true
+        },
+        {
+          "name": "Maatwerk",
+          "price": "Op aanvraag",
+          "description": "Voor bedrijven met complexe eisen of doorlopende ontwikkelbehoeften.",
+          "features": [
+            "Onbeperkt pagina's",
+            "Maatwerk webapplicatie",
+            "API-integraties",
+            "Meertalige ondersteuning",
+            "Prestatieoptimalisatie",
+            "Doorlopende ondersteuning & onderhoud"
+          ],
+          "cta": { "label": "Neem contact op", "href": "/nl/contact" }
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Vragen over prijzen",
+      "items": [
+        { "question": "Wat is inbegrepen in de prijs?", "answer": "Vervang door uw werkelijke antwoord. Wees specifiek over deliverables, tijdlijn en wat de klant ontvangt." },
+        { "question": "Bieden jullie betalingsregelingen aan?", "answer": "Vervang door uw werkelijke antwoord over betalingsvoorwaarden, aanbetalingen en mijlpalen." },
+        { "question": "Wat als ik iets nodig heb dat hier niet staat?", "answer": "Vervang door uw werkelijke antwoord. Leg uw offerte-op-maat proces uit." },
+        { "question": "Zijn er terugkerende kosten?", "answer": "Vervang door uw werkelijke antwoord over hosting, onderhoud, domeinkosten of abonnementskosten." }
+      ]
+    },
+    "cta": {
+      "title": "Niet zeker welk plan past?",
+      "description": "Plan een gratis consultatie en we adviseren de beste optie voor uw behoeften.",
+      "action": { "label": "Plan een gesprek", "href": "/nl/contact" }
     }
   },
 

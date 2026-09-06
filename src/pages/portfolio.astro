@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/ui/Hero.astro';
+import PortfolioGrid from '../components/ui/PortfolioGrid.astro';
+import CTA from '../components/ui/CTA.astro';
+import { t } from '../lib/i18n';
+
+const content = t(Astro.currentLocale);
+const { seo, hero, projects, cta } = content.portfolio;
+---
+
+<BaseLayout title={seo.title} description={seo.description}>
+  <Hero title={hero.title} subtitle={hero.subtitle} />
+  <PortfolioGrid title={projects.title} subtitle={projects.subtitle} projects={projects.items} />
+  <CTA title={cta.title} description={cta.description} action={cta.action} />
+</BaseLayout>

@@ -30,6 +30,8 @@ src/
       FAQs.astro        — accordion with <details>
       Steps.astro       — numbered list
       BlogCard.astro    — title, date, description, link
+      PortfolioGrid.astro — project cards with tags (3 cols)
+      PricingCards.astro — tiered pricing cards (3 cols)
     islands/         # React components (hydrated)
       MobileNav.tsx     — hamburger menu + language switcher
       ContactForm.tsx   — form with labels passed as props from JSON
@@ -49,6 +51,8 @@ src/
     index.astro        — home (EN)
     about.astro        — about (EN)
     services.astro     — services (EN)
+    portfolio.astro    — portfolio (EN)
+    pricing.astro      — pricing (EN)
     contact.astro      — contact (EN)
     blog/              — blog list + posts (EN)
     privacy.astro      — privacy (EN)
@@ -59,10 +63,13 @@ src/
       index.astro        — home (NL)
       over-ons.astro     — about (NL, localized URL)
       diensten.astro     — services (NL, localized URL)
+      portfolio.astro    — portfolio (NL)
+      prijzen.astro      — pricing (NL, localized URL)
       contact.astro      — contact (NL)
       blog/              — blog list + posts (NL)
       privacybeleid.astro — privacy (NL, localized URL)
       voorwaarden.astro  — terms (NL, localized URL)
+      rss.xml.ts         — RSS feed (NL)
       404.astro          — not found (NL)
   styles/
     global.css         — Tailwind v4 config + all design tokens
