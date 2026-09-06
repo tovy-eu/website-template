@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogCard from '../../components/ui/BlogCard.astro';
+import { t, blogCollection } from '../../lib/i18n';
+
+const content = t(Astro.currentLocale);
+const { seo, heading, subtitle } = content.blog;
+
+const posts = (await getCollection(blogCollection(Astro.currentLocale), ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const blogBase = Astro.currentLocale === 'nl' ? '/nl/blog' : '/blog';
+---
+
+<BaseLayout title={seo.title} description={seo.description}>
+  <section class="mx-auto max-w-6xl px-4 py-20">
+    <h1 class="text-4xl font-bold">{heading}</h1>
+    <p class="mt-2 text-gray-600">{subtitle}</p>
+    <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {posts.map((post) => (
+        <BlogCard
+          title={post.data.title}
+          description={post.data.description}
+          date={post.data.date}
+          slug={post.id}
+          baseUrl={blogBase}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

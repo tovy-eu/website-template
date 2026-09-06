@@ -1,0 +1,10 @@
+dist/
+.astro/
+node_modules/
+.firebase/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/

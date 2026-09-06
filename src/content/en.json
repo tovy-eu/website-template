@@ -1,0 +1,286 @@
+{
+  "site": {
+    "name": "Your Business Name",
+    "tagline": "A short tagline about your business goes here.",
+    "copyright": "Your Business Name. All rights reserved."
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Blog", "href": "/blog" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  },
+
+  "footer": {
+    "columns": [
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About", "href": "/about" },
+          { "label": "Services", "href": "/services" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "label": "Blog", "href": "/blog" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "href": "/privacy" },
+          { "label": "Terms of Service", "href": "/terms" }
+        ]
+      }
+    ]
+  },
+
+  "home": {
+    "seo": {
+      "title": "Your Business Name",
+      "description": "A short description of what your business does and the value it provides."
+    },
+    "hero": {
+      "title": "Headline that captures your value proposition",
+      "subtitle": "A supporting sentence that explains what you do, who you serve, and why it matters. Keep it clear and specific.",
+      "primaryCTA": { "label": "Get Started", "href": "/contact" },
+      "secondaryCTA": { "label": "Learn More", "href": "/about" }
+    },
+    "features": {
+      "title": "What we offer",
+      "subtitle": "A brief explanation of your core services or product features.",
+      "items": [
+        { "title": "Feature One", "description": "Describe the first key benefit or service you provide to customers." },
+        { "title": "Feature Two", "description": "Describe the second key benefit or service you provide to customers." },
+        { "title": "Feature Three", "description": "Describe the third key benefit or service you provide to customers." },
+        { "title": "Feature Four", "description": "Describe the fourth key benefit or service you provide to customers." },
+        { "title": "Feature Five", "description": "Describe the fifth key benefit or service you provide to customers." },
+        { "title": "Feature Six", "description": "Describe the sixth key benefit or service you provide to customers." }
+      ]
+    },
+    "stats": [
+      { "value": "100+", "label": "Customers served" },
+      { "value": "10+", "label": "Years experience" },
+      { "value": "99%", "label": "Satisfaction rate" },
+      { "value": "24/7", "label": "Support available" }
+    ],
+    "testimonials": {
+      "title": "What our clients say",
+      "items": [
+        { "quote": "Placeholder testimonial from a satisfied customer about the quality of your service.", "name": "Jane Doe", "role": "CEO, Company A" },
+        { "quote": "Placeholder testimonial about how your product solved a specific problem they had.", "name": "John Smith", "role": "CTO, Company B" },
+        { "quote": "Placeholder testimonial highlighting the professional and reliable experience.", "name": "Sarah Johnson", "role": "Founder, Company C" }
+      ]
+    },
+    "cta": {
+      "title": "Ready to get started?",
+      "description": "Reach out today and let's discuss how we can help your business.",
+      "action": { "label": "Contact Us", "href": "/contact" }
+    }
+  },
+
+  "about": {
+    "seo": {
+      "title": "About Us — Your Business Name",
+      "description": "Learn about our story, our team, and the values that drive our work."
+    },
+    "hero": {
+      "title": "About us",
+      "subtitle": "Share your company's origin story. Why did you start? What problem did you see that no one was solving?"
+    },
+    "story": {
+      "title": "Our story",
+      "paragraphs": [
+        "Write 2-3 paragraphs about your company's history, mission, and what makes you different. This section is where potential customers decide whether they trust you. Be specific and authentic.",
+        "Include the founding year, key milestones, and the core belief that drives your business. Avoid generic corporate language — write like you'd explain it to someone at a dinner party."
+      ]
+    },
+    "stats": [
+      { "value": "2020", "label": "Founded" },
+      { "value": "25+", "label": "Team members" },
+      { "value": "500+", "label": "Projects completed" },
+      { "value": "15", "label": "Countries served" }
+    ],
+    "values": {
+      "title": "Our values",
+      "items": [
+        { "title": "Value One", "description": "Describe a core value that guides how your team works and makes decisions." },
+        { "title": "Value Two", "description": "Describe another principle that your customers can expect from every interaction." },
+        { "title": "Value Three", "description": "Describe a third value that sets you apart from competitors in your space." }
+      ]
+    },
+    "cta": {
+      "title": "Want to work with us?",
+      "description": "We'd love to hear about your project.",
+      "action": { "label": "Get in Touch", "href": "/contact" }
+    }
+  },
+
+  "services": {
+    "seo": {
+      "title": "Services — Your Business Name",
+      "description": "Explore the services we offer and how we can help your business grow."
+    },
+    "hero": {
+      "title": "Our services",
+      "subtitle": "A clear summary of what you offer and who it's for. Lead with the outcome, not the process."
+    },
+    "features": {
+      "title": "What we do",
+      "items": [
+        { "title": "Service One", "description": "Explain what this service is, who it helps, and what outcome the customer can expect." },
+        { "title": "Service Two", "description": "Explain what this service is, who it helps, and what outcome the customer can expect." },
+        { "title": "Service Three", "description": "Explain what this service is, who it helps, and what outcome the customer can expect." },
+        { "title": "Service Four", "description": "Explain what this service is, who it helps, and what outcome the customer can expect." },
+        { "title": "Service Five", "description": "Explain what this service is, who it helps, and what outcome the customer can expect." },
+        { "title": "Service Six", "description": "Explain what this service is, who it helps, and what outcome the customer can expect." }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "items": [
+        { "title": "Step 1: Discovery", "description": "Describe what happens when a new customer reaches out. What do you learn about their needs?" },
+        { "title": "Step 2: Proposal", "description": "Describe how you scope the work and what the customer receives before committing." },
+        { "title": "Step 3: Delivery", "description": "Describe how the work gets done and how you keep the customer informed." },
+        { "title": "Step 4: Support", "description": "Describe what happens after delivery. Ongoing support, maintenance, follow-ups." }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently asked questions",
+      "items": [
+        { "question": "How long does a typical project take?", "answer": "Replace with your actual answer. Be specific about timelines." },
+        { "question": "What are your pricing options?", "answer": "Replace with your actual answer. Mention if you offer packages, hourly rates, or custom quotes." },
+        { "question": "Do you work with businesses outside your region?", "answer": "Replace with your actual answer about your service area or remote capabilities." },
+        { "question": "What happens after the project is complete?", "answer": "Replace with your actual answer about warranties, support, or maintenance plans." }
+      ]
+    },
+    "cta": {
+      "title": "Let's discuss your project",
+      "description": "Tell us what you need and we'll get back to you within 24 hours.",
+      "action": { "label": "Contact Us", "href": "/contact" }
+    }
+  },
+
+  "contact": {
+    "seo": {
+      "title": "Contact — Your Business Name",
+      "description": "Get in touch with us. We'd love to hear about your project or answer any questions."
+    },
+    "heading": "Get in touch",
+    "description": "Describe the best way to reach you and what a customer can expect after sending a message. Mention your typical response time.",
+    "info": {
+      "email": "hello@yourbusiness.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Business Street, City, Country"
+    },
+    "form": {
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "messageLabel": "Message",
+      "submitLabel": "Send Message",
+      "successMessage": "Thank you. We'll be in touch."
+    }
+  },
+
+  "blog": {
+    "seo": {
+      "title": "Blog — Your Business Name",
+      "description": "Insights, guides, and updates from our team."
+    },
+    "heading": "Blog",
+    "subtitle": "Insights, guides, and updates from our team.",
+    "rss": {
+      "title": "Your Business Name",
+      "description": "Insights, guides, and updates from our team."
+    }
+  },
+
+  "privacy": {
+    "seo": {
+      "title": "Privacy Policy — Your Business Name",
+      "description": "How we collect, use, and protect your personal information."
+    },
+    "heading": "Privacy Policy",
+    "sections": [
+      {
+        "title": "Information we collect",
+        "content": "Describe what personal information you collect (name, email, usage data, cookies) and how you collect it (forms, analytics, third-party services)."
+      },
+      {
+        "title": "How we use your information",
+        "content": "Explain what you do with the data: respond to inquiries, improve services, send communications, comply with legal obligations."
+      },
+      {
+        "title": "How we share your information",
+        "content": "List any third parties you share data with (analytics providers, payment processors, email services). If you don't share data, say so."
+      },
+      {
+        "title": "Cookies",
+        "content": "Describe what cookies your site uses, their purpose, and how users can manage their preferences."
+      },
+      {
+        "title": "Your rights",
+        "content": "Explain what rights users have regarding their data (access, correction, deletion, opt-out). Reference applicable regulations (GDPR, CCPA) if relevant."
+      },
+      {
+        "title": "Contact",
+        "content": "For privacy-related questions, contact us at privacy@yourbusiness.com."
+      }
+    ]
+  },
+
+  "terms": {
+    "seo": {
+      "title": "Terms of Service — Your Business Name",
+      "description": "The terms and conditions governing the use of our services."
+    },
+    "heading": "Terms of Service",
+    "sections": [
+      {
+        "title": "Agreement to terms",
+        "content": "Describe the scope of the agreement: by using the site or services, the user agrees to these terms."
+      },
+      {
+        "title": "Services",
+        "content": "Describe what services you provide and any limitations or conditions on their availability."
+      },
+      {
+        "title": "User responsibilities",
+        "content": "Outline what users are expected to do (provide accurate information, use services lawfully) and not do (misuse, reverse-engineer, etc.)."
+      },
+      {
+        "title": "Payment terms",
+        "content": "If applicable, describe pricing, billing cycles, refund policies, and cancellation procedures."
+      },
+      {
+        "title": "Limitation of liability",
+        "content": "Describe the limits of your liability. Consult a legal professional for jurisdiction-specific language."
+      },
+      {
+        "title": "Changes to terms",
+        "content": "Explain how you notify users of changes to these terms and when updated terms take effect."
+      },
+      {
+        "title": "Contact",
+        "content": "For questions about these terms, contact us at legal@yourbusiness.com."
+      }
+    ]
+  },
+
+  "notFound": {
+    "seo": {
+      "title": "Page Not Found",
+      "description": "The page you're looking for doesn't exist."
+    },
+    "heading": "404",
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "button": { "label": "Back to Home", "href": "/" }
+  }
+}

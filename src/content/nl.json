@@ -1,0 +1,286 @@
+{
+  "site": {
+    "name": "Uw Bedrijfsnaam",
+    "tagline": "Een korte tagline over uw bedrijf komt hier.",
+    "copyright": "Uw Bedrijfsnaam. Alle rechten voorbehouden."
+  },
+
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "/nl" },
+      { "label": "Over ons", "href": "/nl/over-ons" },
+      { "label": "Diensten", "href": "/nl/diensten" },
+      { "label": "Blog", "href": "/nl/blog" },
+      { "label": "Contact", "href": "/nl/contact" }
+    ]
+  },
+
+  "footer": {
+    "columns": [
+      {
+        "title": "Bedrijf",
+        "links": [
+          { "label": "Over ons", "href": "/nl/over-ons" },
+          { "label": "Diensten", "href": "/nl/diensten" },
+          { "label": "Contact", "href": "/nl/contact" }
+        ]
+      },
+      {
+        "title": "Bronnen",
+        "links": [
+          { "label": "Blog", "href": "/nl/blog" }
+        ]
+      },
+      {
+        "title": "Juridisch",
+        "links": [
+          { "label": "Privacybeleid", "href": "/nl/privacybeleid" },
+          { "label": "Algemene voorwaarden", "href": "/nl/voorwaarden" }
+        ]
+      }
+    ]
+  },
+
+  "home": {
+    "seo": {
+      "title": "Uw Bedrijfsnaam",
+      "description": "Een korte beschrijving van wat uw bedrijf doet en de waarde die het biedt."
+    },
+    "hero": {
+      "title": "Kop die uw waardepropositie vastlegt",
+      "subtitle": "Een ondersteunende zin die uitlegt wat u doet, wie u bedient en waarom het ertoe doet. Houd het duidelijk en specifiek.",
+      "primaryCTA": { "label": "Aan de slag", "href": "/nl/contact" },
+      "secondaryCTA": { "label": "Meer informatie", "href": "/nl/over-ons" }
+    },
+    "features": {
+      "title": "Wat wij bieden",
+      "subtitle": "Een korte uitleg van uw belangrijkste diensten of productkenmerken.",
+      "items": [
+        { "title": "Kenmerk een", "description": "Beschrijf het eerste belangrijke voordeel of de dienst die u aan klanten biedt." },
+        { "title": "Kenmerk twee", "description": "Beschrijf het tweede belangrijke voordeel of de dienst die u aan klanten biedt." },
+        { "title": "Kenmerk drie", "description": "Beschrijf het derde belangrijke voordeel of de dienst die u aan klanten biedt." },
+        { "title": "Kenmerk vier", "description": "Beschrijf het vierde belangrijke voordeel of de dienst die u aan klanten biedt." },
+        { "title": "Kenmerk vijf", "description": "Beschrijf het vijfde belangrijke voordeel of de dienst die u aan klanten biedt." },
+        { "title": "Kenmerk zes", "description": "Beschrijf het zesde belangrijke voordeel of de dienst die u aan klanten biedt." }
+      ]
+    },
+    "stats": [
+      { "value": "100+", "label": "Klanten bediend" },
+      { "value": "10+", "label": "Jaar ervaring" },
+      { "value": "99%", "label": "Tevredenheidsgraad" },
+      { "value": "24/7", "label": "Ondersteuning beschikbaar" }
+    ],
+    "testimonials": {
+      "title": "Wat onze klanten zeggen",
+      "items": [
+        { "quote": "Placeholder testimonial van een tevreden klant over de kwaliteit van uw dienstverlening.", "name": "Jan de Vries", "role": "CEO, Bedrijf A" },
+        { "quote": "Placeholder testimonial over hoe uw product een specifiek probleem heeft opgelost.", "name": "Pieter Jansen", "role": "CTO, Bedrijf B" },
+        { "quote": "Placeholder testimonial die de professionele en betrouwbare ervaring benadrukt.", "name": "Maria Bakker", "role": "Oprichter, Bedrijf C" }
+      ]
+    },
+    "cta": {
+      "title": "Klaar om te beginnen?",
+      "description": "Neem vandaag nog contact op en laten we bespreken hoe we uw bedrijf kunnen helpen.",
+      "action": { "label": "Neem contact op", "href": "/nl/contact" }
+    }
+  },
+
+  "about": {
+    "seo": {
+      "title": "Over ons — Uw Bedrijfsnaam",
+      "description": "Leer over ons verhaal, ons team en de waarden die ons werk aandrijven."
+    },
+    "hero": {
+      "title": "Over ons",
+      "subtitle": "Deel het ontstaansverhaal van uw bedrijf. Waarom bent u begonnen? Welk probleem zag u dat niemand oploste?"
+    },
+    "story": {
+      "title": "Ons verhaal",
+      "paragraphs": [
+        "Schrijf 2-3 alinea's over de geschiedenis, missie en wat uw bedrijf anders maakt. Dit is waar potentiële klanten beslissen of ze u vertrouwen. Wees specifiek en authentiek.",
+        "Vermeld het oprichtingsjaar, belangrijke mijlpalen en de kernovertuiging die uw bedrijf aandrijft. Vermijd generiek bedrijfstaalgebruik — schrijf alsof u het aan iemand op een feestje uitlegt."
+      ]
+    },
+    "stats": [
+      { "value": "2020", "label": "Opgericht" },
+      { "value": "25+", "label": "Teamleden" },
+      { "value": "500+", "label": "Projecten afgerond" },
+      { "value": "15", "label": "Landen bediend" }
+    ],
+    "values": {
+      "title": "Onze waarden",
+      "items": [
+        { "title": "Waarde een", "description": "Beschrijf een kernwaarde die bepaalt hoe uw team werkt en beslissingen neemt." },
+        { "title": "Waarde twee", "description": "Beschrijf een ander principe dat uw klanten bij elke interactie kunnen verwachten." },
+        { "title": "Waarde drie", "description": "Beschrijf een derde waarde die u onderscheidt van concurrenten." }
+      ]
+    },
+    "cta": {
+      "title": "Wilt u met ons samenwerken?",
+      "description": "We horen graag over uw project.",
+      "action": { "label": "Neem contact op", "href": "/nl/contact" }
+    }
+  },
+
+  "services": {
+    "seo": {
+      "title": "Diensten — Uw Bedrijfsnaam",
+      "description": "Ontdek de diensten die wij aanbieden en hoe wij uw bedrijf kunnen laten groeien."
+    },
+    "hero": {
+      "title": "Onze diensten",
+      "subtitle": "Een duidelijke samenvatting van wat u biedt en voor wie. Begin met het resultaat, niet het proces."
+    },
+    "features": {
+      "title": "Wat wij doen",
+      "items": [
+        { "title": "Dienst een", "description": "Leg uit wat deze dienst is, wie het helpt en welk resultaat de klant kan verwachten." },
+        { "title": "Dienst twee", "description": "Leg uit wat deze dienst is, wie het helpt en welk resultaat de klant kan verwachten." },
+        { "title": "Dienst drie", "description": "Leg uit wat deze dienst is, wie het helpt en welk resultaat de klant kan verwachten." },
+        { "title": "Dienst vier", "description": "Leg uit wat deze dienst is, wie het helpt en welk resultaat de klant kan verwachten." },
+        { "title": "Dienst vijf", "description": "Leg uit wat deze dienst is, wie het helpt en welk resultaat de klant kan verwachten." },
+        { "title": "Dienst zes", "description": "Leg uit wat deze dienst is, wie het helpt en welk resultaat de klant kan verwachten." }
+      ]
+    },
+    "steps": {
+      "title": "Hoe het werkt",
+      "items": [
+        { "title": "Stap 1: Kennismaking", "description": "Beschrijf wat er gebeurt wanneer een nieuwe klant contact opneemt. Wat leert u over hun behoeften?" },
+        { "title": "Stap 2: Voorstel", "description": "Beschrijf hoe u het werk inschat en wat de klant ontvangt voordat ze zich verbinden." },
+        { "title": "Stap 3: Uitvoering", "description": "Beschrijf hoe het werk wordt gedaan en hoe u de klant op de hoogte houdt." },
+        { "title": "Stap 4: Ondersteuning", "description": "Beschrijf wat er na oplevering gebeurt. Doorlopende ondersteuning, onderhoud, follow-ups." }
+      ]
+    },
+    "faqs": {
+      "title": "Veelgestelde vragen",
+      "items": [
+        { "question": "Hoe lang duurt een typisch project?", "answer": "Vervang door uw werkelijke antwoord. Wees specifiek over tijdlijnen." },
+        { "question": "Wat zijn uw prijsopties?", "answer": "Vervang door uw werkelijke antwoord. Vermeld of u pakketten, uurtarieven of maatwerkoffertes aanbiedt." },
+        { "question": "Werkt u met bedrijven buiten uw regio?", "answer": "Vervang door uw werkelijke antwoord over uw servicegebied of remote mogelijkheden." },
+        { "question": "Wat gebeurt er na afronding van het project?", "answer": "Vervang door uw werkelijke antwoord over garanties, ondersteuning of onderhoudsplannen." }
+      ]
+    },
+    "cta": {
+      "title": "Laten we uw project bespreken",
+      "description": "Vertel ons wat u nodig heeft en we nemen binnen 24 uur contact met u op.",
+      "action": { "label": "Neem contact op", "href": "/nl/contact" }
+    }
+  },
+
+  "contact": {
+    "seo": {
+      "title": "Contact — Uw Bedrijfsnaam",
+      "description": "Neem contact met ons op. We horen graag over uw project of beantwoorden graag uw vragen."
+    },
+    "heading": "Neem contact op",
+    "description": "Beschrijf de beste manier om u te bereiken en wat een klant kan verwachten na het versturen van een bericht. Vermeld uw typische reactietijd.",
+    "info": {
+      "email": "hallo@uwbedrijf.nl",
+      "phone": "+31 (0) 20 123 4567",
+      "address": "Keizersgracht 123, Amsterdam, Nederland"
+    },
+    "form": {
+      "nameLabel": "Naam",
+      "emailLabel": "E-mail",
+      "messageLabel": "Bericht",
+      "submitLabel": "Verstuur bericht",
+      "successMessage": "Bedankt. We nemen contact met u op."
+    }
+  },
+
+  "blog": {
+    "seo": {
+      "title": "Blog — Uw Bedrijfsnaam",
+      "description": "Inzichten, handleidingen en updates van ons team."
+    },
+    "heading": "Blog",
+    "subtitle": "Inzichten, handleidingen en updates van ons team.",
+    "rss": {
+      "title": "Uw Bedrijfsnaam",
+      "description": "Inzichten, handleidingen en updates van ons team."
+    }
+  },
+
+  "privacy": {
+    "seo": {
+      "title": "Privacybeleid — Uw Bedrijfsnaam",
+      "description": "Hoe wij uw persoonlijke gegevens verzamelen, gebruiken en beschermen."
+    },
+    "heading": "Privacybeleid",
+    "sections": [
+      {
+        "title": "Informatie die wij verzamelen",
+        "content": "Beschrijf welke persoonlijke informatie u verzamelt (naam, e-mail, gebruiksgegevens, cookies) en hoe u deze verzamelt (formulieren, analytics, diensten van derden)."
+      },
+      {
+        "title": "Hoe wij uw informatie gebruiken",
+        "content": "Leg uit wat u met de gegevens doet: reageren op vragen, diensten verbeteren, communicatie verzenden, voldoen aan wettelijke verplichtingen."
+      },
+      {
+        "title": "Hoe wij uw informatie delen",
+        "content": "Vermeld eventuele derden waarmee u gegevens deelt (analytics-providers, betalingsverwerkers, e-maildiensten). Als u geen gegevens deelt, vermeld dit dan."
+      },
+      {
+        "title": "Cookies",
+        "content": "Beschrijf welke cookies uw site gebruikt, hun doel en hoe gebruikers hun voorkeuren kunnen beheren."
+      },
+      {
+        "title": "Uw rechten",
+        "content": "Leg uit welke rechten gebruikers hebben met betrekking tot hun gegevens (inzage, correctie, verwijdering, opt-out). Verwijs naar toepasselijke regelgeving (AVG, GDPR) indien relevant."
+      },
+      {
+        "title": "Contact",
+        "content": "Voor privacygerelateerde vragen kunt u contact met ons opnemen via privacy@uwbedrijf.nl."
+      }
+    ]
+  },
+
+  "terms": {
+    "seo": {
+      "title": "Algemene voorwaarden — Uw Bedrijfsnaam",
+      "description": "De voorwaarden die van toepassing zijn op het gebruik van onze diensten."
+    },
+    "heading": "Algemene voorwaarden",
+    "sections": [
+      {
+        "title": "Akkoord met voorwaarden",
+        "content": "Beschrijf de reikwijdte van de overeenkomst: door de site of diensten te gebruiken, gaat de gebruiker akkoord met deze voorwaarden."
+      },
+      {
+        "title": "Diensten",
+        "content": "Beschrijf welke diensten u levert en eventuele beperkingen of voorwaarden voor hun beschikbaarheid."
+      },
+      {
+        "title": "Verantwoordelijkheden van de gebruiker",
+        "content": "Beschrijf wat van gebruikers wordt verwacht (correcte informatie verstrekken, diensten rechtmatig gebruiken) en wat niet (misbruik, reverse-engineering, enz.)."
+      },
+      {
+        "title": "Betalingsvoorwaarden",
+        "content": "Beschrijf indien van toepassing prijzen, factureringsperioden, restitutiebeleid en annuleringsprocedures."
+      },
+      {
+        "title": "Beperking van aansprakelijkheid",
+        "content": "Beschrijf de grenzen van uw aansprakelijkheid. Raadpleeg een juridisch professional voor jurisdictie-specifieke taal."
+      },
+      {
+        "title": "Wijzigingen in voorwaarden",
+        "content": "Leg uit hoe u gebruikers op de hoogte stelt van wijzigingen in deze voorwaarden en wanneer bijgewerkte voorwaarden van kracht worden."
+      },
+      {
+        "title": "Contact",
+        "content": "Voor vragen over deze voorwaarden kunt u contact met ons opnemen via juridisch@uwbedrijf.nl."
+      }
+    ]
+  },
+
+  "notFound": {
+    "seo": {
+      "title": "Pagina niet gevonden",
+      "description": "De pagina die u zoekt bestaat niet."
+    },
+    "heading": "404",
+    "title": "Pagina niet gevonden",
+    "description": "De pagina die u zoekt bestaat niet of is verplaatst.",
+    "button": { "label": "Terug naar home", "href": "/nl" }
+  }
+}
