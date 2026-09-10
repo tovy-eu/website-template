@@ -18,6 +18,13 @@ jobs:
       - run: npm ci
       - run: npm run build
 
+      - name: Verify build output
+        run: |
+          for page in index.html about/index.html services/index.html contact/index.html blog/index.html privacy/index.html terms/index.html nl/index.html 404.html rss.xml; do
+            test -s "dist/$page" || { echo "Missing or empty: dist/$page"; exit 1; }
+          done
+          echo "All critical pages present."
+
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
