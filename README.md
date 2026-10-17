@@ -148,6 +148,7 @@ See **[docs/WORKFLOW.md](docs/WORKFLOW.md)** for the complete step-by-step walkt
 1. Replace `your-firebase-project-id` in `.firebaserc` and `.github/workflows/*.yml`
 2. Replace `https://example.com` in `astro.config.mjs` and `public/robots.txt` with your domain
 3. Add `FIREBASE_SERVICE_ACCOUNT` secret to GitHub (Firebase console > Service Accounts > Generate Key)
+   Until this secret exists, CI still builds and checks the site but skips the deploy.
 4. Replace `public/og-default.png` with your actual OG image (1200x630)
 
 ## Project structure
