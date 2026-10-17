@@ -7,6 +7,9 @@ on:
 jobs:
   preview:
     runs-on: ubuntu-latest
+    env:
+      # Deploy only runs once a copy of this template has its own Firebase project.
+      FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
     steps:
       - uses: actions/checkout@v7
 
@@ -25,7 +28,12 @@ jobs:
           done
           echo "All critical pages present."
 
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - name: Skip deploy (no Firebase secret)
+        if: env.FIREBASE_SERVICE_ACCOUNT == ''
+        run: echo "FIREBASE_SERVICE_ACCOUNT is not set, so the build was checked but not deployed."
+
+      - if: env.FIREBASE_SERVICE_ACCOUNT != ''
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
