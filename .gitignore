@@ -8,3 +8,7 @@ node_modules/
 !.env.example
 .DS_Store
 .idea/
+.envrc
+*.pem
+*.key
+.claude/settings.local.json
