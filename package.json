@@ -28,7 +28,7 @@
     "esbuild": true
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.3",
+    "@tailwindcss/vite": "^4.3.5",
     "firebase-tools": "^15.29.0",
     "tailwindcss": "^4.3.3"
   }
